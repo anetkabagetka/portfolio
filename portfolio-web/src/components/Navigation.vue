@@ -1,8 +1,8 @@
 <template>
     <nav class="menu">
-        <a href="#">home</a>
-        <a href="#">about</a>
-        <a href="#">works</a>
+        <RouterLink to="/" exact-active-class="active">home</RouterLink>
+        <RouterLink to="/about" exact-active-class="active">about</RouterLink>
+        <RouterLink to="/works" exact-active-class="active">works</RouterLink>
     </nav>
 </template>
 
