@@ -6,7 +6,7 @@
             <RouterLink to="/works" exact-active-class="active" class="works-link">works</RouterLink>
         </nav>
         <div class="folder-content">
-            <h2>Welcome!</h2>
+            <h2 class="welcome-title">*Welcome*</h2>
         </div>
     </div>
 </template>

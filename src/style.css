@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+    --primary-color: #43459C;
+    --secondary-color: #F9F7EB;
+}
 
 * {
     margin: 0;
@@ -33,20 +38,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: var(--primary-color);
     height: 100%;
+    z-index: 7;
+    position: relative;
+    box-shadow: 10px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.folder-content .welcome-title {
+    font-size: 4rem;
+    font-family: "Instrument Serif", sans-serif;
+    color: var(--secondary-color);
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .folder-menu a {
     text-decoration: none;
     font-size: 1.5rem;
     font-family: "Comfortaa", sans-serif;
-    color: #F9F7EB;
+    color: var(--secondary-color);
     font-weight: lighter;
 }
 
-.home-link, .about-link, .works-link {
-    background-color: #43459C;
+.home-link,
+.about-link,
+.works-link {
+    background-color: var(--primary-color);
     width: 100%;
     text-align: center;
     padding: 20px;
