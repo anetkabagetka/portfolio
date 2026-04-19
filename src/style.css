@@ -16,12 +16,17 @@ body {
     background-color: var(--secondary-color);
 }
 
-#app {
+.spinner-page, .home-page {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-page, .works-page {
+    width: 100%;
+    height: 100vh;
 }
 
 .folder {
@@ -34,6 +39,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.folder-menu.navigation {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .folder-content {

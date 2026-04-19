@@ -1,5 +1,5 @@
 <template>
-    <img src="@/assets/spinner.png" alt="Loading..." class="spinner" />
+    <img src="@/assets/spinner.png" alt="Loading..." class="spinner-img" />
 </template>
 
 <script setup>
@@ -7,11 +7,12 @@
 </script>
 
 <style scoped>
-.spinner {
+.spinner-img {
+    width: 65%;
     max-width: 510px;
     position: fixed;
     z-index: 100;
-    animation: spin 3s linear infinite;
+    animation: spin 3.5s linear infinite;
 }
 
 @keyframes spin {

@@ -1,11 +1,7 @@
 <template>
-    <Folder />
+    <FolderNavigation />
 </template>
 
 <script setup>
-import Folder from '@/components/Folder.vue';
+import FolderNavigation from '@/components/FolderNavigation.vue';
 </script>
-
-<style lang="scss" scoped>
-
-</style>
