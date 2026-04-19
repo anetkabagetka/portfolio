@@ -12,7 +12,8 @@
 }
 
 body {
-    height: 100dvh;
+    height: 100vh;
+    background-color: var(--secondary-color);
 }
 
 #app {
@@ -26,6 +27,7 @@ body {
 .folder {
     width: 610px;
     height: 360px;
+    margin-top: -66.5px;
 }
 
 .folder-menu {
@@ -42,7 +44,7 @@ body {
     height: 100%;
     z-index: 7;
     position: relative;
-    box-shadow: 10px 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.2);
 }
 
 .folder-content .welcome-title {

@@ -12,7 +12,23 @@
 </template>
 
 <script setup>
-
+// show spinner view for 1.5 seconds before loading the page clicked by the user
+import { onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+const router = useRouter();
+onMounted(() => {
+    const links = document.querySelectorAll('.folder-menu a');
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const href = link.getAttribute('href');
+            router.push('/spinner');
+            setTimeout(() => {
+                router.push(href);
+            }, 1500);
+        });
+    });
+});
 </script>
 
 <style lang="scss" scoped></style>
