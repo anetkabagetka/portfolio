@@ -16,7 +16,8 @@ body {
     background-color: var(--secondary-color);
 }
 
-.spinner-page, .home-page {
+.spinner-page,
+.home-page {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -24,7 +25,8 @@ body {
     align-items: center;
 }
 
-.about-page, .works-page {
+.about-page,
+.works-page {
     width: 100%;
     height: 100vh;
 }
@@ -83,6 +85,24 @@ body {
     padding: 20px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    transition: transform 0.3s ease;
+    height: 86.5px;
+    margin-bottom: -20px;
+
+    &:hover {
+        transform: translateY(-20px);
+    }
+}
+
+.home-page .folder-menu:not(.navigation) .home-link,
+.home-page .folder-menu:not(.navigation) .about-link,
+.home-page .folder-menu:not(.navigation) .works-link {
+    height: 86.5px;
+    margin-bottom: -30px;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
 }
 
 .home-link {
