@@ -108,3 +108,18 @@ body {
 .folder-menu a.active::before {
     content: "[ ";
 }
+
+#about {
+    max-width: 800px;
+    padding-bottom: 146.5px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 64px;
+    font-family: "Instrument Serif", sans-serif;
+    color: var(--primary-color);
+    font-weight: lighter;
+    margin-top: 80px;
+    position: relative;
+}
