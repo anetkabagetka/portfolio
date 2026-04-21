@@ -6,6 +6,7 @@
             <RouterLink to="/works" exact-active-class="active" class="works-link">works</RouterLink>
         </nav>
         <div class="folder-content">
+            <div class="shadow-box"></div>
             <h2 class="welcome-title">*Welcome*</h2>
         </div>
     </div>
@@ -30,3 +31,18 @@ onMounted(() => {
     });
 });
 </script>
+
+<style scoped>
+.shadow-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: auto;
+    width: 406px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(1px);
+    z-index:18;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);
+}
+</style>
