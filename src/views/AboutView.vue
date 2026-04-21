@@ -7,8 +7,7 @@
         <div class="about-socials">
             <div class="social-link">
                 <img src="/src/assets/at_icon.png" alt="email icon" class="social-icon" />
-                <a href="mailto:aneta.bolibruchova@gmail.com"
-                    style="text-decoration: underline;">aneta.bolibruchova@gmail.com</a>
+                <a href="mailto:aneta.bolibruchova@gmail.com" >aneta.bolibruchova@gmail.com</a>
             </div>
             <div class="social-link">
                 <img src="/src/assets/hash_icon.png" alt="hashtag icon" class="social-icon" />
@@ -96,7 +95,7 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
     margin-top: 30px;
 
     a {
-        font-size: 18px;
+        font-size: 24px;
         font-family: "Comfortaa", sans-serif;
         color: #000;
         text-decoration: none;
@@ -107,13 +106,13 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
     }
 
     .arr-icon {
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
     }
 }
 
 .about-content {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Comfortaa", sans-serif;
     color: #000;
     margin-top: 40px;
