@@ -31,7 +31,7 @@
         <div class="about-actions">
             <div class="cv-link">
                 <img src="/src/assets/arr_down.png" alt="download icon" class="arr-icon" />
-                <a href="aneta_bolibruchova_cv.pdf" target="_blank" rel="noopener noreferrer">Download my CV</a>
+                <a href="/src/assets/cv-aneta-bolibruchova.pdf" target="_blank" rel="noopener noreferrer">Download my CV</a>
             </div>
             <div class="cv-link">
                 <img src="/src/assets/arr_right.png" alt="download icon" class="arr-icon" />
