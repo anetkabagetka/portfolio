@@ -129,7 +129,7 @@ body {
     content: "[ ";
 }
 
-#about {
+#about, #works {
     max-width: 800px;
     padding-bottom: 146.5px;
     margin: 0 auto;

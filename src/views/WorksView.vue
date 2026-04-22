@@ -1,5 +1,7 @@
 <template>
-    <Work />
+     <section id="about">
+         <Work />
+     </section>
     <FolderNavigation />
 </template>
 
