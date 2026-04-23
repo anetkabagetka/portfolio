@@ -6,6 +6,4 @@
 import Folder from '@/components/Folder.vue';
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

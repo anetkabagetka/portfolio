@@ -7,7 +7,7 @@
         <div class="about-socials">
             <div class="social-link">
                 <img src="/src/assets/at_icon.png" alt="email icon" class="social-icon" />
-                <a href="mailto:aneta.bolibruchova@gmail.com" >aneta.bolibruchova@gmail.com</a>
+                <a href="mailto:aneta.bolibruchova@gmail.com">aneta.bolibruchova@gmail.com</a>
             </div>
             <div class="social-link">
                 <img src="/src/assets/hash_icon.png" alt="hashtag icon" class="social-icon" />
@@ -31,7 +31,8 @@
         <div class="about-actions">
             <div class="cv-link">
                 <img src="/src/assets/arr_down.png" alt="download icon" class="arr-icon" />
-                <a href="/src/assets/cv-aneta-bolibruchova.pdf" target="_blank" rel="noopener noreferrer">Download my CV</a>
+                <a href="/src/assets/cv-aneta-bolibruchova.pdf" target="_blank" rel="noopener noreferrer">Download my
+                    CV</a>
             </div>
             <div class="cv-link">
                 <img src="/src/assets/arr_right.png" alt="download icon" class="arr-icon" />

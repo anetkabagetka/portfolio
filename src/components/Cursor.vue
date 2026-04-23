@@ -1,5 +1,5 @@
 <template>
-    <div :class="['cursor', mode]" :style="{transform: `translate(${x}px,${y}px) translate(-50%,-50%)`}"/>
+    <div :class="['cursor', mode]" :style="{ transform: `translate(${x}px,${y}px) translate(-50%,-50%)` }" />
 </template>
 
 <script setup>
@@ -48,23 +48,25 @@ onUnmounted(() => {
 
 <style scoped>
 .cursor {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 25px;
-   height: 25px;
-   border-radius: 50%;
-   pointer-events: none;
-   z-index: 9999;
-   backdrop-filter: blur(2px);
-   -webkit-backdrop-filter: blur(2px);
-   transform: translate(-50%,-50%);
-   transition: background-color 0.3s, border-color 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s, border-color 0.3s;
 }
+
 .cursor--light {
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 .cursor--blue {
     background-color: rgba(67, 69, 156, 0.3);
     border: 1px solid rgba(67, 69, 156, 0.3);

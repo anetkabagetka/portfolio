@@ -42,7 +42,7 @@ onMounted(() => {
     height: 2px;
     background-color: rgba(0, 0, 0, 0.1);
     filter: blur(1px);
-    z-index:18;
+    z-index: 18;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);
 }
 </style>
