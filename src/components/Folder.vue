@@ -62,7 +62,7 @@ onMounted(() => {
     right: 0;
     top: 0;
     left: auto;
-    width: 406px;
+    width: 67%;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.1);
     filter: blur(1px);
