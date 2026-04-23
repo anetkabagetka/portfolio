@@ -164,3 +164,100 @@ body {
     margin-top: 80px;
     position: relative;
 }
+
+/* RESPONSIVE DESIGN ******************************/
+
+@media (max-width: 860px) {
+    .folder {
+        padding: 20px;
+        height: 300px;
+    }
+
+    .folder-menu {
+        height: 46.5px;
+    }
+
+    .folder-menu a {
+        font-size: 14px;
+    }
+
+    .about-page, .works-page {
+        padding: 20px 40px;
+    }
+
+    .about-socials {
+        gap: 10px !important;
+
+        .social-link a {
+            font-size: 16px !important;
+        }
+    }
+
+    .about-avatar {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 48px;
+        margin-top: 20px;
+    }
+
+    .about-content {
+        margin-top: 30px !important;
+        font-size: 18px !important;
+    }
+
+    .cv-link {
+        margin-top: 10px !important;
+    }
+
+    .cv-link a {
+        font-size: 18px !important;
+    }
+
+    .about-actions {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .folder-menu.navigation {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        a {
+            height: 66.5px;
+        }
+    }
+
+    #about {
+        padding-bottom: 0px;
+    }
+
+    .work img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .info {
+        left: -30px !important;
+        top: 0 !important;
+        width: 64px !important;
+        height: 64px !important;
+        background-color: var(--primary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    .more-info {
+        left: -240px !important;
+        top: 0 !important;
+
+        background-color: var(--primary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    .cursor {
+        display: none !important;
+    }
+}

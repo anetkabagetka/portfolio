@@ -1,5 +1,5 @@
 <template>
-    <section id="about">
+    <section id="works">
         <Work />
     </section>
     <FolderNavigation />
