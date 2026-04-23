@@ -237,7 +237,7 @@ body {
     }
 
     .info {
-        left: -30px !important;
+        left: -80px !important;
         top: 0 !important;
         width: 64px !important;
         height: 64px !important;
@@ -248,9 +248,18 @@ body {
     .more-info {
         left: -240px !important;
         top: 0 !important;
-
+        min-width: 240px;
+        max-width: 240px;
         background-color: var(--primary-color) !important;
         color: var(--secondary-color) !important;
+        gap: 10px !important;
+
+        .work-title {
+            font-size: 16px !important;
+        }
+        .work-description {
+            font-size: 14px !important;
+        }
     }
 
     .cursor {
