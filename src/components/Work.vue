@@ -1,6 +1,6 @@
 <template>
     <div class="work" v-for="work in works" :key="work.id">
-        <img :src="work.image" :alt="work.title" class="work-image">
+        <img :src="work.image" :alt="work.title" class="work-image" loading="lazy" decoding="async">
         <div class="work-info">
             <button class="info" @click="toggleInfo">?</button>
             <div class="more-info">
