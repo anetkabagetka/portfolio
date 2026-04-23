@@ -56,8 +56,8 @@ onUnmounted(() => {
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     transform: translate(-50%, -50%);
     transition: background-color 0.3s, border-color 0.3s;
 }
