@@ -7,14 +7,14 @@
         </nav>
         <div class="folder-content">
             <div class="shadow-box"></div>
-            <h2 class="welcome-title">*Welcome*</h2>
+            <h2 class="welcome-title">*{{ welcomeMessage }}*</h2>
         </div>
     </div>
 </template>
 
 <script setup>
 // show spinner view for 1.25 seconds before loading the page clicked by the user
-import { onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 onMounted(() => {
@@ -29,6 +29,30 @@ onMounted(() => {
             }, 1250);
         });
     });
+});
+
+const welcomeMessage = ref('');
+const lastWord = ref('');
+
+function generateMessage() {
+    const wordList = [
+        'Welcome', 'Bryndza', 'Hola Carlito',
+        'Funky', 'Real', 'Random Message',
+        '欢迎', 'ようこそ', '환영합니다', 'Rinky Dink'
+    ];
+
+    let newWord;
+
+    do {
+        newWord = wordList[Math.floor(Math.random() * wordList.length)];
+    } while (newWord === lastWord.value);
+
+    lastWord.value = newWord;
+    welcomeMessage.value = newWord;
+}
+
+onMounted(() => {
+    generateMessage();
 });
 </script>
 
