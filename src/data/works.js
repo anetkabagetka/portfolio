@@ -82,5 +82,17 @@ export const works = [
         title: "Fungium poster",
         description: "This poster was a part of my school exam project, which was to create an architectural design with a campaign. Except for Illustrator, I also used Rhinoceros, which is a 3D  modeling software.",
         image: new URL('../assets/works/work15.webp', import.meta.url).href
+    },
+    {
+        id: 16,
+        title: "Band personas",
+        description: "Part of a UX project in which I had to research the fanbase of a band and create personas based on said research.",
+        image: new URL('../assets/works/work16.webp', import.meta.url).href
+    },
+    {
+        id: 17,
+        title: "Paralel",
+        description: "This illustrated booklet is a part of my final highschool exam project. I created a rotoscoped animation and binded this illustrated book to go with it. See more at <a href='https://youtu.be/RS1njohiJ7Q'>Paralel</a>.",
+        image: new URL('../assets/works/work17.webp', import.meta.url).href
     }
 ];
