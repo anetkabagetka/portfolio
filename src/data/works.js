@@ -2,85 +2,85 @@ export const works = [
     {
         id: 1,
         title: "Acceptable in the 70s",
-        description: "Description for Work 1",
+        description: "Won 1st place in a school photography competition",
         image: new URL('../assets/works/work1.webp', import.meta.url).href
     },
     {
         id: 2,
-        title: "Work 2",
-        description: "Description for Work 2",
+        title: "Dragon fruit",
+        description: "Vector illustration, created using Adobe Illustrator",
         image: new URL('../assets/works/work2.webp', import.meta.url).href
     },
     {
         id: 3,
-        title: "Work 3",
-        description: "Description for Work 3",
+        title: "Icon pack",
+        description: "Created for a company called esoul. Icons are used in their system made for creating costumized websites.",
         image: new URL('../assets/works/work3.webp', import.meta.url).href
     },
     {
         id: 4,
-        title: "Work 4",
-        description: "Description for Work 4",
+        title: "International day poster",
+        description: "Poster for a school competition for an international school event.",
         image: new URL('../assets/works/work4.webp', import.meta.url).href
     },
     {
         id: 5,
-        title: "Work 5",
-        description: "Description for Work 5",
+        title: "Vector doodle",
+        description: "Adobe Illustrator exercise",
         image: new URL('../assets/works/work5.webp', import.meta.url).href
     },
     {
         id: 6,
-        title: "Work 6",
-        description: "Description for Work 6",
+        title: "Lola 1",
+        description: "Pet photoshoot",
         image: new URL('../assets/works/work6.webp', import.meta.url).href
     },
     {
         id: 7,
-        title: "Work 7",
-        description: "Description for Work 7",
+        title: "Lola 2",
+        description: "Pet photoshoot",
         image: new URL('../assets/works/work7.webp', import.meta.url).href
     },
     {
+        id: 10,
+        title: "Lola 3",
+        description: "Pet photoshoot",
+        image: new URL('../assets/works/work10.webp', import.meta.url).href
+    },
+    {
         id: 8,
-        title: "Work 8",
-        description: "Description for Work 8",
+        title: "Matthew Carter poster",
+        description: "Typography poster",
         image: new URL('../assets/works/work8.webp', import.meta.url).href
     },
     {
         id: 9,
-        title: "Work 9",
-        description: "Description for Work 9",
+        title: "The Brothers Lionheart",
+        description: "For my first semester exam project at SEA, we had to create a theatre website for a play. My role in this project was to create a visual identity, character designs and proper user experience. Go to https://emilka-kostenko.github.io/LionHeart/ to see the full product.",
         image: new URL('../assets/works/work9.webp', import.meta.url).href
     },
     {
-        id: 10,
-        title: "Work 10",
-        description: "Description for Work 10",
-        image: new URL('../assets/works/work10.webp', import.meta.url).href
-    },
-    {
         id: 11,
-        title: "Work 11",
-        description: "Description for Work 11",
+        title: "Pixel.me",
+        description: "Pixel self-portrait",
         image: new URL('../assets/works/work11.webp', import.meta.url).href
     },
     {
         id: 12,
-        title: "Work 12",
-        description: "Description for Work 12",
+        title: "Rina Sawayama vector art",
+        description: "Portrait created using Adobe Illustrator",
         image: new URL('../assets/works/work12.webp', import.meta.url).href
     },
     {
         id: 13,
-        title: "Work 13",
-        description: "Description for Work 13",
+        title: "Twelfth Night",
+        description: "Bookcover/poster for a school project",
         image: new URL('../assets/works/work13.webp', import.meta.url).href
     },
     {
         id: 15,
-        title: "Work 15",
-        description: "Description for Work 15",
+        title: "Fungium poster",
+        description: "This poster was a part of my school exam project, which was to create an architectural design with a campaign. Except for Illustrator, I also used Rhinoceros, which is a 3D  modeling software.",
         image: new URL('../assets/works/work15.webp', import.meta.url).href
     }
 ];
