@@ -1,7 +1,7 @@
 export const works = [
     {
         id: 1,
-        title: "Work 1",
+        title: "Acceptable in the 70s",
         description: "Description for Work 1",
         image: new URL('../assets/works/work1.webp', import.meta.url).href
     },
