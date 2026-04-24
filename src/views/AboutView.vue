@@ -56,12 +56,13 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
 }
 
 .about-avatar.me {
-    right: 15px;
+    right: 18px;
     z-index: 10;
     top: 10px;
     transform: rotate(3deg);
-    width: 125px;
+    width: 122px;
     height: 155px;
+    border-radius: 4px;
 }
 
 .about-socials {
