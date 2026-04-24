@@ -37,9 +37,8 @@ const welcomeKey = 'folder-was-opened';
 
 function generateMessage() {
     const wordList = [
-        'Welcome', 'Bryndza', 'Hola Carlito',
-        'Funky', 'Real', 'Random Message',
-        '欢迎', 'ようこそ', '환영합니다', 'Rinky Dink'
+        'Welcome', 'Bryndza', 'Hola',
+        'Funky', 'Real','欢迎', 'ようこそ', '환영합니다', 'Rinky Dink'
     ];
 
     let newWord;
