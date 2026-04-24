@@ -2,6 +2,7 @@
     <section id="about">
         <h1 class="section-title">
             About me
+            <img src="/src/assets/avatar-me.png" alt="Me" class="about-avatar me">
             <img src="/src/assets/avatar.png" alt="Avatar" class="about-avatar">
         </h1>
         <div class="about-socials">
@@ -52,6 +53,15 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
     height: 180px;
     right: 0;
     position: absolute;
+}
+
+.about-avatar.me {
+    right: 15px;
+    z-index: 10;
+    top: 10px;
+    transform: rotate(3deg);
+    width: 125px;
+    height: 155px;
 }
 
 .about-socials {
