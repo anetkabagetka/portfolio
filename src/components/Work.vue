@@ -65,7 +65,7 @@ const closeInfo = (event) => {
             border: none;
             font-size: 46px;
             cursor: pointer;
-            font-family: 'Instrument Serif', serif;
+            font-family: var(--font-display);
             color: var(--primary-color);
             background-color: transparent;
             font-weight: 600;
@@ -95,7 +95,7 @@ const closeInfo = (event) => {
             width: 36px;
             height: 36px;
             font-weight: bold;
-            font-family: 'Comfortaa';
+            font-family: var(--font-ui);
 
         }
 
@@ -103,7 +103,7 @@ const closeInfo = (event) => {
             display: flex;
             flex-direction: column;
             position: absolute;
-            font-family: 'Comfortaa';
+            font-family: var(--font-ui);
             padding: 20px;
             z-index: 10;
             height: max-content;

@@ -67,7 +67,7 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
 
         a {
             font-size: 24px;
-            font-family: "Comfortaa", sans-serif;
+            font-family: var(--font-ui);
             color: #000;
             text-decoration: none;
 
@@ -97,7 +97,7 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
 
     a {
         font-size: 24px;
-        font-family: "Comfortaa", sans-serif;
+        font-family: var(--font-ui);
         color: #000;
         text-decoration: none;
 
@@ -114,7 +114,7 @@ import FolderNavigation from '@/components/FolderNavigation.vue';
 
 .about-content {
     font-size: 24px;
-    font-family: "Comfortaa", sans-serif;
+    font-family: var(--font-ui);
     color: #000;
     margin-top: 40px;
     line-height: 1.618;
