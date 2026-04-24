@@ -32,7 +32,7 @@
         <div class="about-actions">
             <div class="cv-link">
                 <img src="/src/assets/arr_down.png" alt="download icon" class="arr-icon" />
-                <a href="/src/assets/cv-aneta-bolibruchova.pdf" target="_blank" rel="noopener noreferrer">Download my
+                <a :href="cvPdfUrl" target="_blank" rel="noopener noreferrer">Download my
                     CV</a>
             </div>
             <div class="cv-link">
@@ -46,6 +46,8 @@
 
 <script setup>
 import FolderNavigation from '@/components/FolderNavigation.vue';
+
+const cvPdfUrl = new URL('../assets/cv-aneta-bolibruchova.pdf', import.meta.url).href;
 </script>
 
 <style scoped>
