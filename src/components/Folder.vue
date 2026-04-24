@@ -31,8 +31,9 @@ onMounted(() => {
     });
 });
 
-const welcomeMessage = ref('');
-const lastWord = ref('');
+const welcomeMessage = ref('Welcome');
+const lastWord = ref('Welcome');
+const welcomeKey = 'folder-was-opened';
 
 function generateMessage() {
     const wordList = [
@@ -52,7 +53,13 @@ function generateMessage() {
 }
 
 onMounted(() => {
-    generateMessage();
+    const hasOpenedBefore = sessionStorage.getItem(welcomeKey) === 'true';
+
+    if (hasOpenedBefore) {
+        generateMessage();
+    } else {
+        sessionStorage.setItem(welcomeKey, 'true');
+    }
 });
 </script>
 

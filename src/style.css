@@ -170,7 +170,7 @@ body {
 @media (max-width: 860px) {
     .folder {
         padding: 20px;
-        height: 300px;
+        height: 270px;
     }
 
     .folder-menu {
@@ -179,6 +179,14 @@ body {
 
     .folder-menu a {
         font-size: 14px;
+    }
+
+    .home-link, .about-link, .works-link {
+        height: 46.5px;
+        padding: 15px 10px !important;
+        margin-bottom: -50px !important;
+        border-top-left-radius: 24px !important;
+        border-top-right-radius: 24px !important;
     }
 
     .about-page, .works-page {
@@ -227,7 +235,7 @@ body {
         transform: translateX(-50%);
 
         a {
-            height: 66.5px;
+            height: 86.5px;
         }
     }
 
