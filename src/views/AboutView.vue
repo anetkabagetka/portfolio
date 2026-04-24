@@ -36,7 +36,7 @@
             </div>
             <div class="cv-link">
                 <img src="/src/assets/arr_right.png" alt="download icon" class="arr-icon" />
-                <a href="#" target="_blank" rel="noopener noreferrer">See video CV</a>
+                <a href="https://youtu.be/HYHCchJtHOY" target="_blank" rel="noopener noreferrer">See video CV</a>
             </div>
         </div>
     </section>
