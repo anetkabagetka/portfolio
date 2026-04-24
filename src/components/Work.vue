@@ -6,7 +6,7 @@
             <div class="more-info">
                 <button class="close" @click="closeInfo">x</button>
                 <h3 class="work-title">{{ work.title }}</h3>
-                <p class="work-description">{{ work.description }}</p>
+                <p class="work-description" v-html="work.description"></p>
             </div>
         </div>
     </div>
@@ -131,10 +131,21 @@ const closeInfo = (event) => {
         .work-title {
             font-size: 18px;
             font-weight: 600;
+            max-width: 80%;
         }
 
         .work-description {
             font-size: 14px;
+        }
+
+        .work-description :deep(a) {
+            color: inherit;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .work-description :deep(a:hover) {
+            opacity: 0.8;
         }
     }
 }

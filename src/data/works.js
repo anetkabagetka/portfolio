@@ -56,7 +56,7 @@ export const works = [
     {
         id: 9,
         title: "The Brothers Lionheart",
-        description: "For my first semester exam project at SEA, we had to create a theatre website for a play. My role in this project was to create a visual identity, character designs and proper user experience. Go to https://emilka-kostenko.github.io/LionHeart/ to see the full product.",
+        description: "For my first semester exam project at SEA, we had to create a theatre website for a play. My role in this project was to create a visual identity, character designs and proper user experience. Go to <a href='https://emilka-kostenko.github.io/LionHeart'>Brothers Lionheart</a> to see the full product.",
         image: new URL('../assets/works/work9.webp', import.meta.url).href
     },
     {
